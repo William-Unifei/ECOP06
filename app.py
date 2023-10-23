@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.title('Página Demo de ECOP06')
 
-esportes = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv')
+esportes = pd.read_csv('https://github.com/MainakRepositor/Datasets/raw/master/GeneralEsportData.csv',encoding='latin1')
 
 st.dataframe(esportes)
 
